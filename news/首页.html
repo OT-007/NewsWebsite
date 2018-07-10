@@ -1,0 +1,354 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+	<title>首页</title>
+	<link rel="stylesheet" type="text/css" href="css/css.css">
+<script type="text/javascript">
+
+    	window.onload = function(){
+    		var container = document.getElementById('container');
+    		var list = document.getElementById('list');
+    		var timer;
+
+    		function animate (offset){
+    			var newleft = parseInt(list.style.left) + offset;
+    			list.style.left = newleft + '%';
+
+    			if (newleft > -100) {
+    				list.style.left = -300	 + '%';
+    			}
+    			if (newleft < -300	) {
+    				list.style.left = -100 + '%';
+    			}100
+    		}
+
+    		function play () {
+    			timer = setInterval(function () {
+    				next.onclick();
+    			},2000);
+    		}
+
+    		function stop () {
+    			clearInterval(timer);
+    		}
+
+    		next.onclick = function () {
+    			animate(-100);
+    		}
+    		prev.onclick = function () {
+    			animate(100);
+    		}
+    		play();
+    	}
+</script>
+</head>
+<body>
+	<div class="one">
+		<div class="leader">
+			<a href=""><img src="images/three.png" width="7%;"></a>
+			<h2>The Belt And Road</h2>
+			<p>International Cooperation Priorities</p>
+			<div class="language">
+				<a href=""> English </a>| <a href="">Chinese</a> | <a href="">Frech</a> | <a href="">Germen</a> | <a href="">Arabic </a>| <a href="">Portuguese</a>
+			</div>
+			<a href=""><div class="white">
+				Acess
+			</div></a>	
+			<a href=""><div class="contact">
+				contact
+			</div></a>
+		</div>
+		<div class="title">
+			<a href="#"><div class="word1"><p>HOME</p></div></a>
+			<a href="#"><div class="word2"><p>DATA</p></div></a>
+			<a href="#two"><div class="word3"><p>NEWS</p></div></a>
+			<a href="#three"><div class="word4"><p>CULTURE</p></div></a>
+			<a href="#four"><div class="word5"><p>PPLITICS</p></div></a>
+			<a href="#"><div class="word6"><p>MORE</p></div></a>
+		</div>
+		<div id="container">
+		<div class="ad" id="list" style="left: -0%;">
+			<img src="images/3.jpg" width="20%;" alt="3">
+			<img src="images/1.jpg" width="20%;" alt="1">
+			<img src="images/2.jpg" width="20%;" alt="2">
+			<img src="images/3.jpg" width="20%;" alt="3">
+			<img src="images/1.jpg" width="20%;" alt="1">
+		</div>
+		<a href="javascript:;" class="arrow" id="prev"><img src="图片素材/left.png"></a>
+		<a href="javascripy:;" class="arrow" id="next"><img src="图片素材/right.png"></a>
+		</div>
+		<div class="introduce">
+			<div class="introduce_title">
+				<h2><i>ACTION PLAN ON THE CHINA-PROPOSED B&R INTETIVE</i> <img src="images/red.png" width="8%;"></h2>
+			</div>
+			<a href=""><div class="konw">KONW MORE<p>></p> </div></a>
+			<h3><i>"peace and cooperation, openness and inclusiveness, mutual learning and mutual benefit"</i> </h3>
+			<div class="title_word">
+				<p>The Belt and Road Initiative is a systematic project, which should be jointly built through consultation to meet the interests 
+of all, and efforts should be made  to integrate the  development strategies of  the countries along the Belt  and  Road . The 
+Chinese  government has drafted and published  the  Vision  and Actions on Jointly Building  Silk  Road  Economic  Belt and 
+21st Century Maritimei Silk Road to promote the implementation of the Initiative, instill vigor and vitality into the ancient Silk
+ Road ,connect Asian, European and African  countries more closely and promote  mutually  beneficial  cooperation to a new 
+high and in new forms. </p>
+			</div>
+			<div class="title_black">
+				<h2>Big data analysis of B%A gives you a new undertstanding</h2>
+			</div>
+		</div>
+		<div class="number">
+			<div class="number1">
+				<h1>3.21Billion</h1>
+				<p>PEOPLE INVOLVED</p>
+			</div>
+			<div class="number2">
+				<h1>7.18Thrillion</h1>
+				<p>TOTAL FOREIGN TRADE</p>
+			</div>
+			<div class="number3">
+				<h1>12Trillion</h1>
+				<p>COUNTRIES ALONG THE ROUTE'GNP'</p>
+			</div>
+		</div>
+	</div>
+	<a name="two"><div class="two" name="">
+	  <div class="two_belt">Belt And Road Today///</div>	  
+	  <div class="two_list">	    
+	    <img src="images/xinwen.png" class="two_picone"/>
+	  	<a href=""><div class="two_News">News</div></a>
+	    <a href=""><div class="two_Nation">Nation</div></a>
+	    <a href=""><div class="two_World">World</div></a>
+	    <a href=""><div class="two_Beijing">Beijing</div></a>
+	  </div>
+	  <div class="two_content">
+	    <div class="two_up">
+	      <span class="two_line1"></span>
+	      <span class="two_title">NEWS OF B&R</span>
+	      <span class="two_line2"></span>
+	    </div>
+	    <img src="images/pic1.jpg" class="pic1"/>
+	    		<div class="black3">
+					<div class="pic_word1">
+					<h1>China's largest investment project in Saudi Arabia</h1>
+					<p> First overseas petrochemical refining project</p>
+					<p> Yanbu Aramco Sinopec Refining Company Ltd/ Time / Industry / 16.1.20</p>
+					</div>
+				</div>
+	    <img src="images/pic2.jpg" class="pic2"/>
+	    	    <div class="black4">
+					<div class="pic_word2">
+					<h1>B&R is here - beijing</h1>
+					<h1>Belt and Road Forum for International Cooperation-</h1>
+					<p>thematic session on financial connectivity</p>
+					</div>
+				</div>
+	    <img src="images/pic3.jpg" class="pic3"/>
+	    	    <div class="black5">
+					<div class="pic_word3">
+					<h1>China and Greece work together with“Hub”Port in //Piraeus//</h1>
+					<p>Two ancient civilizations walk for the marvelous  future.</p>
+				</div>
+	  </div> </a>
+	</div>
+		<a name="three"><div class="three">
+		<div class="three_left">
+			<div class="three_left1">	
+				<img src="images/three.png" width="90%">
+			</div>
+			<a href="#"><div class="three_left2">
+				Vison
+			</div></a>
+			<a href=""><div class="three_left3">
+				Indian
+			</div></a>
+			<a href=""><div class="three_left3">
+				Iraq
+			</div></a>
+			<a href=""><div class="three_left3">
+				Yemen
+			</div></a>
+			<a href=""><div class="three_left3">
+				Albania
+			</div></a>
+			<a href=""><div class="three_left4">
+				South<br/>
+				Africa
+			</div></a>
+			<a href=""><div class="three_left4">
+				New<br/>
+				Zealand
+			</div></a>
+		</div>
+		<div class="three_right">
+			<div class="hr1"></div>
+			<div class="three_title"><h1>THE COUNRIES OF B&A</h1></div>
+			<div class="hr2"></div>
+			<div class="pic_1">
+				<img src="images/three_1.jpg" width="550px;">
+				<div class="black2">
+					<div class="pic_word1">
+					India is located in South Asia , is the largest country in the Indian subcon<br>
+-tinent, and Pakistan, China, Nepal, Bhutan, myanmar and Bangladesh neig<br>
+-hbour, endangered Bengal and the Arabian sea, the coastline of 5560 kilo<br>
+-meters. India coasts into deccan and central plateau, plain and the Himal<br>
+-ayas and so on three natural geographical areas.
+					</div>
+				</div>
+			</div>
+			<div class="pic_3">
+				<img src="images/three_3.png" width="550px;" >
+				<div class="black2">
+					<div class="pic_word1">
+					The Republic of Albania located in western Balkan peninsula of southeast <br>
+Europe, the  north  and northeast  border  with  Serbia and Montenegro <br>
+and Macedonia,, Greek  neighbors to the south Albania.,and Adriatic Sea<br>
+in the west of it, on the other side of the otranto strait is Italy.<br>
+				</div>
+			</div>
+			<div class="pic_3">
+				<img src="images/three_5.jpg" width="550px;" >
+				<div class="black2">
+					<div class="pic_word1">
+					South Africa, on the continent's southern tip, is bordered by the Atlantic 
+Ocean  on the west and by the Indian  Ocean on  the south and east. Its 
+neighbors are Namibia in the northwest, Zimbabwe and Botswana in the
+ north, and Mozambique and Swaziland in the northeast. 
+					</div>
+			</div>
+			<div class="pic_2">
+				<img src="images/three_2.jpg" width="550px;" >
+				<div class="black2">
+					<div class="pic_word1">
+					Yemen is in the southwest of Arabic Peninsula, whose neighbor country
+ is Saudi Arabia and Oman, and it is next to the Red Sea, the Atin Gulf 
+and the Arabic Sea. The national religion is Islamism.  It has a rectangu
+-lar flag, the ratio of whose length and width are about three to two. 
+The flag consists of three parallel red, white and black rectangles. 
+					</div>
+			</div><div class="pic_4">
+				<img src="images/three_4.jpg" width="550px;" >
+				<div class="black2">
+					<div class="pic_word1">
+					New Zealand is Located in the southwest Pacific, New Zealand has two main islands -
+ the North (115,000 sq km) and South (151,000 sq km) - and a number
+ of smaller islands, including bushclad Stewart Island (1700 sq km). Th
+-e country is famous for its natural beauty and scenic attractions.
+					</div>
+			</div>
+			<div class="pic_4">
+				<img src="images/three_6.jpg" width="550px;" >
+				<div class="black2">
+					<div class="pic_word1">
+					Iraq is a country in Western Asia spanning most of the  northwestern 
+end of the Zagros mountain range, the eastern part of the  Syrian De
+-sert and the northern part of the Arabian Desert.raq is bordered by J
+ordan to the west, Syria to the northwest, Turkey to the north.
+					</div>
+			</div>
+		</div>
+	</div></a>
+	<a name="four"><div class="four">
+<div class="left">
+	<div class="l1">
+	<img src="images/four-2.png" width="75" height="64" >
+	</div>
+	<div class="l2"></div>	
+	<div class="l3">
+		<p>Outline</p>
+	</div>
+	<div class="l4"></div>
+	<div class="l5">
+		<p>Continents</p>
+	</div>
+	<div class="l6"></div>
+	<div class="l7">
+		<p>Oceans</p>
+	</div>
+	<div class="l8"></div>
+</div>
+<div class="right">
+	<div class="r1">
+		<div class="r11"></div>
+		<div class="r12">
+			<p>THE ROUTES OF B&R</p>
+		</div>
+		<div class="r13"></div>
+	</div>
+	<div class="r2">
+		<img src="images/four-1.jpg" width="350%" >
+	</div>
+	<div class="r3">
+		<TABLE class="r31" >
+		<TBODY><TR><TD>
+		<br><p>&nbsp;North Line A：North America-North Pacific-Japan-Korea-Vladivostok-Hunchun&nbsp;</p><p class="r311">-Yanji-Jilin-Changchun-Mengguguo-Russia-Europe</p>
+		 <p>&nbsp;North Line B: Beijing-Russia-Germany-Noethern Eorope</p>
+         <p>&nbsp;Central Line:  Beijing-Zhengzhou-Xian-Urumqi-Afghan-Kazakstan-Hungary-Paris&nbsp;</p>
+         <p>&nbsp;Central Line: Lianyungang-Zhengzhou-Xian-Lanzhou-Xinjiang-Central Asia-Eur&nbsp;</p>
+         <p>&nbsp;South Line: Quanzhou-Fuzhou-Guangzhou-Haikou-The North Sea-Hanoi-Kuala&nbsp;</p><p class="r312"> Lumpur-Djakarta-Colombo-Calcutta-Nairobi-Athens-Venice</p><br>
+        </TD></TR></TBODY></TABLE>
+	</div>
+</div></a>
+</div>
+   <div class="footer">
+    <div class="footer_list">
+     <div class="footer_01">
+    	<div class="footer_list1"> 
+    	  <span class="footer_topic">
+    	    MEDIA
+    	  </span><br>
+          <span class="footer_list11">
+		        <a href="">Muliimedia</a><br>
+            <a href="#">Video</a><br>
+            <a href="#">Text</a><br>
+            <a href="#">Photo</a><br>
+            <a href="#">Data</a>
+		    </span>
+      </div>
+      <div class="footer_list1"> 
+        <span class="footer_topic">
+          TOOLS
+        </span><br>
+          <span class="footer_list11">
+            <a href="#">Devices</a><br>
+            <a href="#">Facebook</a><br>
+            <a href="#">Twitter</a><br>
+            <a href="#">YouTube</a><br>
+            <a href="#">Site Map</a>
+        </span>
+      </div>
+      <div class="footer_list1"> 
+        <span class="footer_topic">
+          SERIVE
+        </span><br>
+          <span class="footer_list11">
+            <a href="#">Live And Location Serives</a><br>
+            <a href="#">AP Content Serives</a><br>
+            <a href="#">News Production</a><br>
+            <a href="#">Adveritise</a><br>
+            <a href="#">Partnership Opportunities</a>
+        </span>
+       </div>
+      </div>
+      <div class="footer_list4"> 
+        <span class="footer_topic">
+          NAME FROM B&R
+        </span><br>
+          <span class="footer_list14">
+            <a href="#">B&R Insights</a><br>
+            <a href="#">B&R Images Sports</a><br>
+            <a href="#">B&R Academy</a><br>
+            <a href="#">B&R Books</a><br>
+            <a href="#">B&R News App</a>
+        </span>
+      </div>
+    </div>
+      <div class="footer_text">
+        <div class="footer_word"> About Madai Center Support Contact Terms & Conition Privacy</div><br>
+        <span class="footer_word">Follow Us With</span>
+        <a href="#"><img src="images/footer1.png" class="footerpic"></a>
+        <a href="#"><img src="images/footer2.png" class="footerpic"></a>
+        <a href="#"><img src="images/footer3.png" class="footerpic"></a>
+      </div>
+    </div>
+
+</body>
+</html>

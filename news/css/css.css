@@ -1,0 +1,795 @@
+*{ margin:0px; padding:0px;}
+ a:link { text-decoration: none; }
+a{color: #fff;}
+.one{
+	width: 100%;
+	height: 120%;
+	background-color: #000;
+}
+.leader{
+	width: 95%;
+	padding-top: 1%;
+	height: 13%;
+	padding-left: 5%;
+	background-color: #191919;
+	color: #fff;
+}
+.leader h2{
+	font-size: 28;
+	margin-left: 8%;
+	margin-top: -7%;
+	margin-bottom: 5px;
+}
+.leader p{
+	font-size: 18;
+	margin-left: 8%;
+}
+.language{
+	margin-left: 50%;
+	margin-top: -5%;
+	font-size: 25;
+}
+.white{
+	margin-top: 45px;
+	margin-left: 85%;
+	text-align: center;
+	font-size: 20;
+	width: 80px;
+	height: 26.6px;
+	background-color: #fff;
+	color: #ff0000;
+}
+.contact{
+	margin-top: -26.6px;
+	margin-left: 92%;
+	color: #fff;
+	width: 80px;
+	height: 26.6px;
+	font-size: 20;
+	background-color: red;
+	text-align: center;
+}
+.title{
+	width: 100%;
+	height: 5%;
+	background-color: #383838;
+}
+.word1{
+	text-align: center;
+	color: #fff;
+	width: 11%;
+	padding-top: 1%;
+	height: 70%;
+	background-color: #383838;
+}
+.word2{
+	text-align: center;
+	color: #fff;
+	width: 11%;
+	padding-top: 1%;
+	height: 70%;
+	margin-top: -3.3%;
+	margin-left: 11%;
+	background-color: #383838;
+}
+.word3{
+	text-align: center;
+	color: #fff;
+	width: 11%;
+	padding-top: 1%;
+	height: 70%;
+	margin-top: -3.3%;
+	margin-left: 22%;
+	background-color: #383838;
+}
+.word4{
+	text-align: center;
+	color: #fff;
+	width: 11%;
+	padding-top: 1%;
+	height: 70%;
+	margin-top: -3.35%;
+	margin-left: 33%;
+	background-color: #383838;
+}
+.word5{
+	text-align: center;
+	color: #fff;
+	width: 11%;
+	padding-top: 1%;
+	height: 70%;
+	margin-top: -3.3%;
+	margin-left: 44%;
+	background-color: #383838;
+}
+.word6{
+	text-align: center;
+	color: #fff;
+	width: 11%;
+	padding-top: 1%;
+	height: 70%;
+	margin-top: -3.3%;
+	margin-left: 55%;
+	background-color: #383838;
+}
+.word1:hover{background-color: #191919;}
+.word2:hover{background-color: #191919;}
+.word3:hover{background-color: #191919;}
+.word4:hover{background-color: #191919;}
+.word5:hover{background-color: #191919;}
+.word6:hover{background-color: #191919;}
+
+
+
+
+#container{
+    width: 100%;
+    height: 70%;
+    overflow: hidden;
+    position: relative;
+}
+#list{
+    z-index: 1;
+    width: 500%;
+    height: 70%;
+    position: absolute;
+}
+
+#list img { float: left;}
+
+.introduce{
+	width: 90%;
+	height: 40%;
+	padding-top: 3.7%;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-top: -9%;
+	background-color: rgba(255,255,255,0.85);
+	z-index: 2;
+	position: relative;
+}
+.introduce_title{
+	width: 65%;
+	height: 14%;
+	background-color: rgba(56,56,56,1);
+	padding-top: 2%;
+	font-family: 张海山锐线体简;
+	color: #fff;
+}
+.introduce_title h2{
+	font-size: 27;
+	font-weight: 400;
+	margin-left: 2%;
+}
+.introduce h3{
+	color: #fe342a;
+	font-size: 28;
+	margin-left: 3%;
+	font-weight: 400;
+	margin-top: 1%;
+}
+.introduce_title img{
+	margin-top: -7.5%;
+	margin-left: 90%;
+}
+.title_word{
+	margin-left: 5%;
+	margin-top: 1%;
+	width: 90%;
+	height: 50%;
+	font-size: 19.8;
+	text-align: center;
+}
+.title_black{
+	width: 100%;
+	height: 20%;
+	background-color: #191919;
+	padding-top: 2%;
+}
+.title_black h2{
+	font-size: 35;
+	color: #696d70;
+	font-weight: 400;
+}
+.konw{
+	width: 14%;
+	height: 10%;
+	background-color: #fe3a31;
+	margin-top: -5%;
+	margin-right: 8%;
+	padding-top: 1%;
+	text-align: center;
+	font-size: 19;
+	color: #fff;
+	margin-left: 80%;
+}
+.konw p{
+	font-size: 40;
+	font-weight: 100;
+	float: right;
+	margin-top: -9%;
+	margin-left: -8%;
+}
+.number{
+	width: 100%;
+	padding-top: 24%;
+	height: 20%;
+	z-index: 1;
+	position: relative;
+	background-color: #191919;
+	margin-top: -20%;
+	text-align: center;
+}
+.number1{
+	width: 20%;
+	height: 20%;
+	color: #696d70;
+	margin-left: 10%;
+}
+.number1 h1{
+	color: #fdfeff;
+	font-size: 60;
+	font-weight: 300;
+}
+.number1 p{
+	border-bottom:1px solid #F00;
+	width: 51%;
+	margin-left: 24.5%;
+}
+.number2{
+	width: 20%;
+	height: 20%;
+	color: #696d70;
+	margin-left: 40%;
+}
+.number2 h1{
+	color: #fdfeff;
+	font-size: 60;
+	font-weight: 300;
+	margin-top: -13.5%;
+}
+.number2 p{
+	margin-left: 23%;
+	width: 64%;
+	border-bottom:1px solid #F00;
+}
+.number3{
+	width: 20%;
+	height: 20%;
+	color: #696d70;
+	margin-left: 70%;
+}
+.number3 h1{
+	color: #fdfeff;
+	font-size: 60;
+	font-weight: 300;
+	margin-top: -13.5%;
+}
+.number3 p{
+	border-bottom:1px solid #F00;
+}
+.two{
+      width: 100%;
+      height: 80%;
+      margin-top: 30.7%;
+}
+a:link{text-decoration: none;}
+.two_belt{
+	    width: 20%;
+	    height: 7%;
+      background-color: #191919;
+      color: #fff;   
+      font-size: 25px;
+}
+.two_title{
+      font-size: 35px;
+      padding-left: 5%;
+}
+.two_list{
+    width: 10%;
+	  height: 192%;
+	  background-color: #191919;
+	  color: #fff;
+	  text-decoration: none;
+}
+.two_picone{
+	  width: 95%;
+}
+.two_News{border-top: 4px solid #637884;}
+.two_News, .two_Nation, .two_World, .two_Beijing{
+    padding-bottom: 10px;
+    padding-top: 10px;
+	  font-size: 35px;
+	  color: #fff;
+	  text-align: center;
+	  border-bottom: 4px solid #637884;
+	  
+}
+
+.two_NEWs:hover, .two_Nation:hover, .two_World:hover, .two_Beijing:hover{
+      background: #a3200a;
+}
+.two_content{
+	  width: 90%;
+	  margin-left: 10%;
+	  margin-top: -62%;
+	  
+}
+.two_up{
+	  padding-left: 20%;
+	  padding-bottom: 2%;
+    margin-top: -93%;
+}
+.two_line1{
+	  width:150px;
+    height:2px;
+    background-color:#000000;
+    position: relative;
+    bottom: 10px;
+    right: 10px;
+    display: inline-block;
+    
+}
+.two_line2{
+    width:150px;
+    height:2px;
+    background-color:#000000;
+    position: relative;
+    bottom: 10px;
+    left: 50px;
+    display: inline-block;
+    
+}
+
+.pic1{
+      width: 50%;
+      height: 80%;
+      z-index: 1;
+      position: relative;
+}
+.pic_word1 h1{
+	font-size: 24;
+	font-family: 张海山锐线体简;
+}
+.pic_word1 p{
+	font-size: 17;
+}
+.pic_word2 h1{
+	color: #fff;
+	font-size: 30;
+	margin-top: 10px;
+}
+.pic_word2 p{
+	color: #fff;
+	font-size: 15;
+	margin-top: -4.5%;
+	margin-left: 35%;
+}
+.black3{
+	z-index: 2;
+	width: 50%;
+	padding-top: 28%;
+	height: 22%;
+	margin-top: -38.5%;
+	background-color: #000;
+	position: relative;
+	opacity: 0;
+}
+.black3:hover{
+	opacity: 0.6;
+}
+.pic2{
+	z-index: 1;
+    width: 49.6%;
+    height: 80%;
+    margin-left: 50%;
+    margin-top: -38.5%;
+	position: relative;
+}
+.black4{
+	z-index: 2;
+	width: 46%;
+	height: 22%;
+	padding-left: 4%;
+	padding-top: 26%;
+	margin-top: -38.5%;
+	margin-left: 50%;
+	background-color: #000;
+	position: relative;
+	opacity: 0;
+	padding-bottom: 2%;
+}
+.black4:hover{opacity: 0.6;}
+.pic3{
+      width: 100%;
+      height: 86%;
+      z-index: 1;
+      position: relative;
+}
+.pic_word3 h1{
+	font-size: 35;
+	color: #fff;
+}
+.pic_word3 p{
+	margin-top: 5px;
+	font-size: 25;
+	color: #fff;
+}
+.black5{
+	z-index: 2;
+	width: 98%;
+	height: 19	%;
+	padding-top: 32%;
+	padding-left: 2%;
+	margin-top: -41%;
+	opacity: 0;
+	background-color: #000;
+	position: relative;
+}
+.black5:hover{
+	opacity: 0.55;
+}
+.three{
+	width: 100%;
+	height: 130%;
+	margin-top: 5%;
+}
+.three_left{
+	width: 10%;
+	height: 140%;
+	background-color: #191919;
+}
+.three_left1{
+	padding-bottom: 5px;
+	height:150px;
+	border-bottom: 4px solid #637884;
+}
+.three_left2{
+	padding-top: 10px;
+	height:60px;
+	font-size: 40px;
+	color: #fff;
+	text-align: center;
+	border-bottom: 4px solid #637884;
+}
+.three_left3{
+	padding-top: 20px;
+	height:50px;
+	font-size: 25px;
+	color: #fff; 
+	text-align: center;
+	border-bottom: 4px solid #637884;
+}
+.three_left4{
+	height:70px;
+	font-size: 25px;
+	color: #fff;
+	text-align: center;
+	border-bottom: 4px solid #637884;
+}
+.three_left2:hover{background-color: #a3200a;}
+.three_left3:hover{background-color: #a3200a;}
+.three_left4:hover{background-color: #a3200a;}
+.three_right{
+	width: 80%;
+	padding-left: 5%;
+	padding-right: 5%;
+	margin-left: 10%;
+	margin-top: -95%;
+}
+.hr1{
+	width: 150px;
+	height: 2px;
+	background-color: #070707;
+	margin-left: 230px;
+	margin-top: 250px;
+}
+.three_title{
+	color: #000;
+	margin-left: 450px;
+	margin-top: -20px;
+}
+.hr2{
+	width: 150px;
+	height: 2px;
+	background-color: #070707;
+	margin-left: 900px;
+	margin-top: -23px;
+}
+.pic_1{
+	z-index: 1;
+	width: 550px;
+	height: 250px;
+	margin-top: 80px;
+}
+.pic_2{
+	z-index: 1;
+	width: 550px;
+	height: 250px;
+	margin-left: 650px;
+	margin-top: -850px;
+}
+.pic_3{
+	z-index: 1;
+	width: 550px;
+	height: 250px;
+	margin-top: 50px;
+}
+.pic_4{
+	z-index: 1;
+	width: 550px;
+	height: 250px;
+	margin-top: 50px;
+}
+.black1{
+	z-index: 2;
+	margin-top: -250px;
+	width: 550px;
+	height: 250px;
+	opacity: 0.5;
+}
+.black2{
+	font-size: 14;
+	position: relative;
+	z-index: 2;
+	margin-top: -250px;
+	width: 550px;
+	height: 200px;
+	padding-top: 50px;
+	opacity: 0;
+	background-color: #000;
+}
+.black2:hover{
+	opacity: 0.6;
+}
+.pic_word1{
+	font-family: 张海山锐线体简;
+	position: relative;
+	color: #fff;
+	width: 95%;
+	margin-left: 5%;
+	line-height: 2;
+	z-index: 3;
+	opacity: 1;
+}
+
+body,p{margin:0;
+	   padding:0;
+	   text-decoration: none; 
+	   font-family:张海山锐线体简; 
+	 }
+textarea{resize:none;
+         outline:none;}
+.four{height:150%;
+    width: 100%;
+	margin-left: -50%;
+	margin-top: 70%;}
+.left{width: 27%;
+	  height:300%;
+	  margin-top:50px;
+	  margin-left: -108.3%;
+      background-color:#191919;}
+.l1{width:140px;
+	height:64px;
+    padding-top: 0px;
+    padding-left:30px;}
+.l2{width:140px;
+	height:3px;
+	margin-top:10px;
+	background-color:#627883;
+    }
+.l3{width:100%;
+	height:5%;
+    font-size:30px;
+    color:#fefefe;
+text-align: center;}
+ .l3:hover{background-color: #a3200a;}
+.l4{width:140px;
+	height:3px;
+	margin-top:15px;
+	background-color:#627883;}
+.l5{width:130px;
+	height:30px;
+    font-size:20px;
+    margin-top:10px;
+    margin-left:10px;
+    color:#fefefe;
+text-align: center;}
+.l5:hover{background-color: #a3200a;}
+.l6{width:140px;
+	height:3px;
+	margin-top:10px;
+	background-color:#627883;}
+.l7{width:130px;
+	height:30px;
+    font-size:20px;
+    color:#fefefe;
+text-align: center;}
+.l7:hover{background-color: #a3200a;}
+.l8{width:140px;
+	height:3px;
+	margin-top:10px;
+	background-color:#627883;}
+.right{width: 90%;
+       height:700px;
+       margin-left: -100%;
+       margin-top: -215%;
+   }
+.r1{width:960px;
+    height:60px;
+    margin-left:50%;
+	margin-top: 5%;}
+.r11{width:70px;
+     height:2px;
+     margin-top:28px;
+     margin-left:240px;
+     float:left;
+     background-color:black;}
+.r12{width:340px;
+     height:60px;
+     margin-top:10px;
+     font-size:30px;
+     margin-left:30px;
+     float:left;
+     color:#131313;
+     vertical-align:middle;
+     }
+.r13{width:70px;
+     height:2px;
+     margin-top:28px;
+     float:left;
+     background-color:black;}
+.r2{
+	margin-top: -50px;
+    margin-left:130px;}
+.r3{width:960px;
+    height:227px;
+    margin-left:210px;
+    margin-top:0px;
+    }
+/*定义一个名字为lefteaseinAnimate动画，实现从页面的左边淡入页面效果*/
+@keyframes lefteaseinAnimate{
+    0%{ transform: translateX(-2000px); opacity: 0;}   /*在0%时设置文字在想X轴-2000px位移处（左边），透明度为0，也就是看不见文字*/
+    100%{ transform: translateX(0px); opacity: 1;}         /*在100%时设置文字在想X轴0px位移处，也就是原始布局的位置，透明度为1，也就是文字可以看见了*/
+}
+@-webkit-keyframes lefteaseinAnimate{
+    0%{ -webkit-transform: translateX(-2000px); opacity: 0;}
+    100%{ -webkit-transform: translateX(0px); opacity: 1;}    
+}
+@-o-keyframes lefteaseinAnimate{
+    0%{ -webkit-transform: translateX(-2000px); opacity: 0;}
+    100%{ -webkit-transform: translateX(0px); opacity: 1;}    
+}
+@-ms-keyframes lefteaseinAnimate{
+    0%{ -webkit-transform: translateX(-2000px); opacity: 0;}
+    100%{ -webkit-transform: translateX(0px); opacity: 1;}    
+}
+@-moz-keyframes lefteaseinAnimate{
+    0%{ -webkit-transform: translateX(-2000px); opacity: 0;}
+    100%{ -webkit-transform: translateX(0px); opacity: 1;}    
+}
+.r31{
+    animation: lefteaseinAnimate 1s ease 1;    /*调用已定义好的动画lefteaseinAnimate，全程运行时间1S，进入的速度曲线为ease，只播放一次*/
+    -webkit-animation: lefteaseinAnimate 1s ease 1;
+    -ms-animation: lefteaseinAnimate 1s ease 1;
+    -o-animation: lefteaseinAnimate 1s ease 1;
+    -moz-animation: lefteaseinAnimate 1s ease 1;
+    
+    /*规定动画的最后状态为结束状态*/
+    animation-fill-mode:forwards;
+    -webkit-animation-fill-mode: forwards;  
+      -o-animation-fill-mode: forwards; 
+      -ms-animation-fill-mode: forwards;   
+      -moz-animation-fill-mode: forwards; 
+}
+
+/*定义一个名字为righteaseinAnimate动画，实现从页面的右边淡入页面效果*/
+@keyframes righteaseinAnimate{
+    0%{ transform: translateX(2000px); opacity: 0;}   /*在0%时设置文字在想X轴2000px位移处（右边），透明度为0，也就是看不见文字*/
+    100%{ transform: translateX(0px); opacity: 1;}      /*在100%时设置文字在想X轴0px位移处，也就是原始布局的位置，透明度为1，也就是文字可以看见了*/
+}
+@-webkit-keyframes righteaseinAnimate{
+    0%{ -webkit-transform: translateX(2000px); opacity: 0;}
+    100%{ -webkit-transform: translateX(0px); opacity: 1;}
+}
+@-o-keyframes righteaseinAnimate{
+    0%{ -webkit-transform: translateX(2000px); opacity: 0;}
+    100%{ -webkit-transform: translateX(0px); opacity: 1;}
+}
+@-ms-keyframes righteaseinAnimate{
+    0%{ -webkit-transform: translateX(2000px); opacity: 0;}
+    100%{ -webkit-transform: translateX(0px); opacity: 1;}
+}
+@-moz-keyframes righteaseinAnimate{
+    0%{ -webkit-transform: translateX(2000px); opacity: 0;}
+    100%{ -webkit-transform: translateX(0px); opacity: 1;}
+}
+.r31{
+    animation: righteaseinAnimate 1s ease 1;    /*调用已定义好的动画righteaseinAnimate，全程运行时间1S，进入的速度曲线为ease，只播放一次*/
+    -webkit-animation: righteaseinAnimate 1s ease 1;
+    -moz-animation: righteaseinAnimate 1s ease 1;
+    -ms-animation: righteaseinAnimate 1s ease 1;
+    -o-animation: righteaseinAnimate 1s ease 1;
+    
+    /*规定动画的最后状态为结束状态*/
+    animation-fill-mode:forwards;
+    -webkit-animation-fill-mode: forwards;  
+      -o-animation-fill-mode: forwards; 
+      -ms-animation-fill-mode: forwards;   
+      -moz-animation-fill-mode: forwards; 
+}
+.r31{border-right: #a5a5a5 2px ridge;
+     border-top: #a5a5a5 2px ridge;
+     border-left: #a5a5a5 2px ridge;
+     border-bottom: #a5a5a5  2px ridge;
+     vertical-align:middle;
+     font-color:#0e0e0e;
+     font-size:25px;
+     width: 110%}
+.r311{
+	margin-left: 17%;
+}
+.r312{
+	margin-left: 14%;
+}
+
+
+
+.footer{
+	  background-image: url(../images/piclast.jpg); 
+    width: 265%;
+    height: 200%;
+    font-size: 12px;
+	margin-top: 119%;
+	margin-left: -160%;
+}
+.footer_01{
+	margin-left: 3%;
+}
+.footer_list1{
+    width: 15%;
+    height: 90%;
+    padding: 0 15px 0 15px;
+    float: left; 
+    text-align: left;
+    margin-top: 4%;
+}
+.footer_topic{
+    color: #fff;
+    font-size: 25px;
+}
+.footer_list11 a{
+    color: #ccc;
+    font-size: 15px;
+    text-decoration: none;
+    line-height:300%;
+}
+.footer_list4{
+	width: 15%;
+    height: 90%;
+    padding: 0 15px 0 440px;
+    float: left; 
+    text-align: right;
+    margin-top: 4%;
+}
+.footer_list14 a{
+    color: #ccc;
+    font-size: 15px;
+    text-decoration: none;
+    line-height:300%;
+}
+.footer_word{
+	color: #fff;
+	font-size: 25px;
+}
+.footer_text{
+	margin-left: 3%;
+}
+.footerpic{
+	width: 2%;
+	height: 5%;
+}
+.footer_list{
+	width: 100%;
+	height: 68%;
+}
